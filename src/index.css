@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-top:40px;
+    background-color: beige;
+    min-width: 70%;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(129, 129, 129);
+}
+
+.text-center {
+    text-align: center;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+form label{
+    font-weight: bolder;
+}
+
+form input {
+    margin-right: 15px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px 7px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px 7px;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: bisque;
+}
+
+table{
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0 auto;
+    min-width: 80%;
+}
+
+th, td{
+    padding: 5px 10px;
+}
+
+td{
+    text-align: center;
+}
+
+.btn-delete{
+    background-color: tomato;
+    margin-left: 5px;
+}
+
+.btn-edit{
+    background-color: lightgreen;
+    margin-left: 5px;
+}
+
+.btn-reset{
+    background-color: lightblue;
+    margin-left: 5px;
+}
+
+.btn-add{
+    background-color: lightsalmon;
+}
