@@ -17,22 +17,24 @@ export const helpHttp = () => {
         options.body = JSON.stringify(options.body) || false;
         if(!options.body) delete options.body;
 
+        console.log(options);
+
         setTimeout( () => {
             controller.abort();
         }, 3000 )
 
 
-        return fetch( endpoint, options )
-                .then( res => {
-                    res.ok
+        return fetch(endpoint, options)
+                .then( (res) =>
+                    (res.ok)
                         ? res.json()
                         : Promise.reject({
                             err: true,
                             status: res.status || "00",
                             statusText: res.statusText || "Ocurrió un error"
                         })
-                })
-                .catch( err => err )
+                )
+                .catch( (err) => err )
 
     }
 
