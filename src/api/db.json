@@ -1,0 +1,24 @@
+{
+    "series": [
+        {
+            "id": 1,
+            "title": "Breaking Bad",
+            "producer": "Vince Gilligan"
+        },
+        {
+            "id": 2,
+            "title": "Game of Thrones",
+            "producer": "David Benioff"
+        },
+        {
+            "id": 3,
+            "title": "The Soprano",
+            "producer": "David Chase"
+        },
+        {
+            "id": 4,
+            "title": "The Wire",
+            "producer": "David Simon"
+        }
+    ]
+}
